@@ -1,7 +1,7 @@
 {
   "name": "tv-series-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tv-series- app Project from the React Fundamental course from Udemy",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
