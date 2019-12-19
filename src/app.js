@@ -1,9 +1,8 @@
 import React, { Component } from "react";
+import Intro from "./components/Intro/Intro";
+import Series from "./containers/series/series";
 import "./app.css";
-
-const Intro = props => (
-  <p className="App-intro">Our first functional component</p>
-);
+import "whatwg-fetch";
 
 class App extends Component {
   render() {
@@ -12,7 +11,8 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Tv-Series-App</h1>
         </header>
-        <Intro />
+        <Intro message="Here you can find all of your most loved series" />
+        <Series />
       </div>
     );
   }
