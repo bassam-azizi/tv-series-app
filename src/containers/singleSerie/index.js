@@ -23,10 +23,10 @@ class SingleSerie extends Component {
         {show !== null && (
           <div>
             <p>{show.name}</p>
+            <p>Rating - {show.rating.average}</p>
             <p>Type - {show.type}</p>
             <p>Genre - {show.genres}</p>
             <p>Premiered - {show.premiered}</p>
-            <p>Rating - {show.rating.average}</p>
             <p>Episode - {show._embedded.episodes.length}</p>
             <p>
               <img alt="show" src={show.image.medium} />
